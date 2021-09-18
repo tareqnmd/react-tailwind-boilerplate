@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
-		<div className="container mx-auto">
+		<div>
 			<NavLink to="/">Home</NavLink>
 			<NavLink to="/about">About</NavLink>
 			<NavLink to="/contact">Contact</NavLink>
